@@ -1,6 +1,7 @@
 import random
 import string
 
+system_random = random.SystemRandom()
 file1 = open("output.txt", "w+")
 text = input("Text to obfuscate:")
 l = input("Length:")
@@ -33,6 +34,6 @@ low_letters = random.choices(string.ascii_lowercase, k=nf)
 sample = random.sample(digits + letters + low_letters, l)
 
 result = ''.join(sample)
-pos = random.randint(int(l / 3), int(l - (l / 3)))
+pos = system_random.randint(int(l / 3), int(l - (l / 3)))
 result = insert_sting_middle(result, text, pos) + "S" + str(pos) + "P" + str(pos+len(text))
 file1.write(result)
