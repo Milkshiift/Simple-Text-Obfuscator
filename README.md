@@ -1,16 +1,16 @@
 # Simple-Text-Obfuscator
-Obfuscate and decode any string
+This script places your string of characters in a randomly generated string, making it very hard for someone to find it when they don't know what to look for.
+
+**THIS IS NOT ENCRYPTION**
 
 # How to use?
 
-**YOU NEED TO INSTALL PYTHON TO USE OBFUSCATOR**
-
-To obfuscate write `python3 main.py` in console in main.py file directory                                                                                       
-Then write word you need to obfuscate and press enter.                                                                                       
-Then write length of obfuscated string                                                                                       
+To obfuscate execute `py main.py` in console in the directory where main.py is located                                                                                      
+Then write a string you need to obfuscate and press enter.                                                                                       
+Then write the length of a nonsence string                                                                                       
 **IT MUST BE A MULTIPLE OF 3**                                                                                       
-After that you get file named `output.txt` which contains your obfuscated word.                                                                                 
+After that a file which contains your obfuscated string `output.txt` will apear.                                                                                 
 
-To decode write `python3 decode.py` in console in decode.py file directory                                                                                       
-Then write name of txt file with obfuscated word.                                                                                       
-After that you get your decoded word in console.                                                                                                                                                                        
+To deobfuscate execute `py decode.py` in console in the directory where decode.py is located.                                                                                    
+Then write the name of txt file with an obfuscated string.                                                                                       
+After that you will get your decoded word in the console.                                                                                                                                                                        
